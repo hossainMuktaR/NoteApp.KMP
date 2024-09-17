@@ -11,6 +11,17 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		BCE5531B2C98C27F008ED39D /* NoteListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5531A2C98C27F008ED39D /* NoteListState.swift */; };
+		BCE5531D2C98C362008ED39D /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5531C2C98C362008ED39D /* NoteItem.swift */; };
+		BCE553202C98C4AE008ED39D /* OrderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5531F2C98C4AE008ED39D /* OrderSection.swift */; };
+		BCE553222C98C4DA008ED39D /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE553212C98C4DA008ED39D /* RadioButton.swift */; };
+		BCE553242C98C536008ED39D /* NoteListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE553232C98C536008ED39D /* NoteListScreen.swift */; };
+		BCE553262C98C595008ED39D /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE553252C98C595008ED39D /* NoteListViewModel.swift */; };
+		BCE553292C98C6D4008ED39D /* NoteTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE553282C98C6D4008ED39D /* NoteTextFieldState.swift */; };
+		BCE5532B2C98C6F7008ED39D /* AddEditNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5532A2C98C6F7008ED39D /* AddEditNoteViewModel.swift */; };
+		BCE5532D2C98C7A2008ED39D /* AddEditNoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5532C2C98C7A2008ED39D /* AddEditNoteScreen.swift */; };
+		BCE5532F2C98D620008ED39D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5532E2C98D620008ED39D /* Utils.swift */; };
+		BCF88E482C9A13F500BCFF21 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF88E472C9A13F500BCFF21 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +32,17 @@
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3632DC29227652001CCB65 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		BCE5531A2C98C27F008ED39D /* NoteListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListState.swift; sourceTree = "<group>"; };
+		BCE5531C2C98C362008ED39D /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
+		BCE5531F2C98C4AE008ED39D /* OrderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSection.swift; sourceTree = "<group>"; };
+		BCE553212C98C4DA008ED39D /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		BCE553232C98C536008ED39D /* NoteListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListScreen.swift; sourceTree = "<group>"; };
+		BCE553252C98C595008ED39D /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
+		BCE553282C98C6D4008ED39D /* NoteTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTextFieldState.swift; sourceTree = "<group>"; };
+		BCE5532A2C98C6F7008ED39D /* AddEditNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditNoteViewModel.swift; sourceTree = "<group>"; };
+		BCE5532C2C98C7A2008ED39D /* AddEditNoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditNoteScreen.swift; sourceTree = "<group>"; };
+		BCE5532E2C98D620008ED39D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BCF88E472C9A13F500BCFF21 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF88E482C9A13F500BCFF21 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +68,7 @@
 		42799AB246E5F90AF97AA0EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCF88E472C9A13F500BCFF21 /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,6 +94,7 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				BCE553182C98C24C008ED39D /* presentation */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
@@ -85,6 +110,47 @@
 				AB3632DC29227652001CCB65 /* Config.xcconfig */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BCE553182C98C24C008ED39D /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BCE553272C98C679008ED39D /* add_edit_screen */,
+				BCE553192C98C259008ED39D /* note_list */,
+				BCE5532E2C98D620008ED39D /* Utils.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		BCE553192C98C259008ED39D /* note_list */ = {
+			isa = PBXGroup;
+			children = (
+				BCE5531E2C98C371008ED39D /* components */,
+				BCE553232C98C536008ED39D /* NoteListScreen.swift */,
+				BCE5531A2C98C27F008ED39D /* NoteListState.swift */,
+				BCE553252C98C595008ED39D /* NoteListViewModel.swift */,
+			);
+			path = note_list;
+			sourceTree = "<group>";
+		};
+		BCE5531E2C98C371008ED39D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BCE5531C2C98C362008ED39D /* NoteItem.swift */,
+				BCE5531F2C98C4AE008ED39D /* OrderSection.swift */,
+				BCE553212C98C4DA008ED39D /* RadioButton.swift */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		BCE553272C98C679008ED39D /* add_edit_screen */ = {
+			isa = PBXGroup;
+			children = (
+				BCE553282C98C6D4008ED39D /* NoteTextFieldState.swift */,
+				BCE5532A2C98C6F7008ED39D /* AddEditNoteViewModel.swift */,
+				BCE5532C2C98C7A2008ED39D /* AddEditNoteScreen.swift */,
+			);
+			path = add_edit_screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +250,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE553262C98C595008ED39D /* NoteListViewModel.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				BCE553242C98C536008ED39D /* NoteListScreen.swift in Sources */,
+				BCE553202C98C4AE008ED39D /* OrderSection.swift in Sources */,
+				BCE5531B2C98C27F008ED39D /* NoteListState.swift in Sources */,
+				BCE5532B2C98C6F7008ED39D /* AddEditNoteViewModel.swift in Sources */,
+				BCE553222C98C4DA008ED39D /* RadioButton.swift in Sources */,
+				BCE553292C98C6D4008ED39D /* NoteTextFieldState.swift in Sources */,
+				BCE5532D2C98C7A2008ED39D /* AddEditNoteScreen.swift in Sources */,
+				BCE5531D2C98C362008ED39D /* NoteItem.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				BCE5532F2C98D620008ED39D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +402,7 @@
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = iosApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,7 +429,7 @@
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = iosApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
