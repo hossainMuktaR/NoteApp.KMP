@@ -22,13 +22,9 @@ A Kotlin Multiplatform (KMP) application for managing notes. This project demons
 
 ## Screenshots
 
-_You can add screenshots of your app here, using relative paths or links if they are stored in the `docs` folder._
-
-- Home Screen:  
-  ![home](docs/main-screen.png)
-
-- Add Screen:  
-  ![add note](docs/add-screen.png)
+| iOS List Screen               | iOS Detail Screen                |
+|-------------------------------|----------------------------------|
+| ![home](docs/main-screen.png) | ![add note](docs/add-screen.png) |
 
 ## How It Works
 
