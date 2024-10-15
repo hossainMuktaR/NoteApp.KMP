@@ -37,11 +37,7 @@ The NoteApp.KMP uses Kotlin Multiplatform to share business logic between Androi
 
 ## Contributing
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
+Contributions are welcome! Please fork the repository and create a pull request with detailed explanations of your changes.
 
 ## License
 
